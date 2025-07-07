@@ -6,7 +6,6 @@ on:
 #  - cron: "0 0 1 * *"
   # manual trigger
   workflow_dispatch:
-  
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
@@ -29,4 +28,4 @@ jobs:
         with:
           source_repo_path: OGCraftMC/Datapack-Template
           upstream_branch: <target_branch> # defaults to main
-          pr_labels: template-sync # defaults to template_sync
+          pr_labels: Template-Sync # defaults to template_sync
