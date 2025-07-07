@@ -34,8 +34,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: chore: template sync
-          title: chore: template sync
+          commit-message: template sync
+          title: template sync
           body: |
             Automated sync from template.
           branch: chore/template_sync
